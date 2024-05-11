@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Comentarios */
+.header-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn-sign-in {
+  text-decoration: none;
+  background-color: #2b3a67;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.header-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.header-list > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-list > li > a:hover {
+  text-decoration: underline;
+  color: #dba159;
+  font-weight: bold;
+}
