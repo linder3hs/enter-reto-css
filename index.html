@@ -6,6 +6,14 @@
     <title>Cafe Point</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
+  <script>
+    console.log("Hola mundo");
+    console.log("Probando la consola");
+
+    console.error("Esto es para mostrar algun error");
+
+    console.warn("Esto es para mostrar alguna adventencia");
+  </script>
   <body>
     <header>
       <nav>
@@ -31,7 +39,19 @@
     </header>
 
     <main>
+      <script>
+        const nombre = prompt("Cual es mi nombre");
+        // Condicionales
+        if (nombre !== null) {
+          document.write(nombre);
+        } else {
+          document.write("El usuario no escribio su nombre");
+        }
+      </script>
       <img src="coffe-hero.avif" alt="" width="800px" />
+      <!-- que debajo de la foto aparezca mi nombre, pero
+      que el navegador me pregunte cual es -->
+
       <h1>Sitio web para los Amantes del café</h1>
       <div>
         <p>
@@ -41,7 +61,6 @@
         </p>
       </div>
     </main>
-
     <footer>
       <section>
         <ul>
@@ -61,4 +80,13 @@
       </section>
     </footer>
   </body>
+  <script>
+    // alert("Alerta despues del body");
+    // const nombre = prompt("Cual es tu nombre?");
+    // const apellido = prompt("Cual es tu apellido");
+    // const correo = prompt("Cual es tu correo");
+    // alert("Hola me llamo " + nombre + " " + apellido);
+    // alert("Mi correo es " + correo);
+    // console.log(nombre);
+  </script>
 </html>
