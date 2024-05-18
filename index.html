@@ -6,14 +6,14 @@
     <title>Cafe Point</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <script>
+  <!-- <script>
     console.log("Hola mundo");
     console.log("Probando la consola");
 
     console.error("Esto es para mostrar algun error");
 
     console.warn("Esto es para mostrar alguna adventencia");
-  </script>
+  </script> -->
   <body>
     <header>
       <nav>
@@ -30,6 +30,15 @@
             <a href="">Mis Productos</a>
           </li>
         </ul>
+        <!-- <script>
+          const nombre = prompt("Cual es mi nombre \n");
+          // Condicionales
+          if (nombre !== null) {
+            document.write(nombre);
+          } else {
+            document.write("El usuario no escribio su nombre");
+          }
+        </script> -->
         <!-- <div class="header-title">
           <p>Cafe Point</p>
           <p>Tu sitio de cafe</p>
@@ -39,15 +48,6 @@
     </header>
 
     <main>
-      <script>
-        const nombre = prompt("Cual es mi nombre");
-        // Condicionales
-        if (nombre !== null) {
-          document.write(nombre);
-        } else {
-          document.write("El usuario no escribio su nombre");
-        }
-      </script>
       <img src="coffe-hero.avif" alt="" width="800px" />
       <!-- que debajo de la foto aparezca mi nombre, pero
       que el navegador me pregunte cual es -->
@@ -79,6 +79,9 @@
         </ul>
       </section>
     </footer>
+    <!-- Una linea antes de que cierre el body, es lugar perfecto para
+    colocar nuestro JS -->
+    <script src="./app.js"></script>
   </body>
   <script>
     // alert("Alerta despues del body");
