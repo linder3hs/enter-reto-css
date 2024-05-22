@@ -29,6 +29,7 @@ function sumar2() {
    */
   // if (isNaN(numero1)) es igual a if (isNaN(numero1) === true)
   // if (!isNaN(numero1)) es igual a if (isNaN(numero1) === false)
+  console.log(!isNaN(numero1) && !isNaN(numero2));
   if (!isNaN(numero1) && !isNaN(numero2)) {
     return numero1 + numero2;
   } else {
@@ -44,6 +45,7 @@ const resultado2 = sumar2();
 console.log("Resultado2", resultado2);
 
 function saludar(nombre) {
+  prompt("Ingresa tu nombre");
   console.log("Hola me llamo " + nombre);
 }
 
